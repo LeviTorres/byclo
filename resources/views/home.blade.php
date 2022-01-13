@@ -74,5 +74,8 @@
                 </div>
             </div>
         </div>
+        <div class="container_maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.043949288025!2d-103.4309617851504!3d20.74901268615061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae542ece1317%3A0xeecefc5193fdc83a!2sAv.%20Acueducto%2C%20Jardines%20del%20Valle%2C%20Zapopan%2C%20Jal.!5e0!3m2!1ses!2smx!4v1642110453522!5m2!1ses!2smx"  height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </div>
 @endsection

@@ -341,3 +341,13 @@ footer {
     }
 }
 
+
+
+.container_maps {
+    max-width: 1024px;
+}
+
+.container_maps iframe {
+    width: 100%;
+}
+
