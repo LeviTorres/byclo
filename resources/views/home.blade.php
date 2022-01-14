@@ -1,6 +1,12 @@
 @extends('layouts.layout')
 @section('title','Inicio')
 @section('content')
+    <div class="home">
+            <div class="home_social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+    </div>
     <div class="container_home">
         <div class="container_question">
             <p class="question_title">¿QUE ES <strong>BYCLO</strong>?</p>

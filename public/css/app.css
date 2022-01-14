@@ -166,6 +166,34 @@ footer {
     min-height: calc(100vh - 75px);
 }
 
+
+.home {
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(55,171,95,0.37608546836703427) 0%), url(../assets/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: calc(100vh - 75px);
+    width: 100%;
+    position: relative;
+}
+
+.home_social {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.home_social i{
+    color: white;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
 .container_question {
     text-align: center;
     background-color: #9aaeac;
