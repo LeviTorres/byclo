@@ -51,26 +51,25 @@
             </div>
         </div>
         <div class="container_contact">
-            <div>
-                <div>
-                    <p><strong>¡CONTACTANOS!</strong>NOS ENCANTA LEERTE</p>
-                    <p>Todas nuestras<strong>bicicletas</strong> cuentan con tecnologia de punta y son altamente eficaces para que tu entrenamiento sea seguro, comodo y ¡extremadamente divertido!</p>
+            <div class="container_contact_form">
+                <div class="container_contact_title_form">
+                    <p class="p_first"><strong>¡CONTACTANOS! </strong>NOS ENCANTA LEERTE</p>
+                    <p class="p_second">Todas nuestras<strong> bicicletas</strong> cuentan con tecnologia de punta y son altamente eficaces para que tu entrenamiento sea seguro, comodo y ¡extremadamente divertido!</p>
                 </div>
-                <div>
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Correo">
-                    <textarea name="textarea" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
-                    <button>Enviar</button>
+                <div class="form_contact">
+                    <input type="text" placeholder="Nombre" id="nombre">
+                    <input type="email" placeholder="Correo" id="correo">
+                    <textarea name="comentario" id="comentario" placeholder="Comentarios" ></textarea>
+                    <button>ENVIAR</button>
                 </div>
             </div>
-            <div>
-                <div class="">
-                    <div class="">
-                        <p class="">BYCLO</p>
-                        <p class="">(33) <strong>3611-2570</strong></p>
-                        <p class="">ACUEDUCTO 3413 - COLINAS DE SAN JAVIER
-                            <br> ZAPOPAN, JAL</p>
-                    </div>
+            <div class="container_contact_information">
+                <div class="container_contact_title_information">
+                    <p class="contact_first">BYCLO</p>
+                    <p class="contact_second">(33) <strong>3611-2570</strong></p>
+                    <p class="contact_third">ACUEDUCTO 3413 </p>
+                    <p class="contact_fourth">COLINAS DE SAN JAVIER <br> ZAPOPAN, JAL</p>
+                    <p class="contact_fifth">hola@byclostudio.com</p>
                 </div>
             </div>
         </div>
