@@ -15,17 +15,18 @@
     </head>
     <body>
         <header>
-            <nav class="menu">
-                <label class="logo">BYCLO</label>
-                    <ul class="menu_items">
-                        <li><a href="#">CONOCE A NUESTROS COACHES</a></li>
-                        <li><a href="#">RESERVAR</a></li>
-                        <li><a href="#">¡CONTÁCTANOS!</a></li>
-                        <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
-                    </ul>
-                <span class="btn_menu" id="btn_menu">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
                     <i class="fas fa-bars"></i>
-                </span>
+                </label>
+                <label class="logo">BYCLO</label>
+                <ul>
+                    <li><a href="#">CONOCE NUESTROS COACHES</a></li>
+                    <li><a href="#">RESERVAR</a></li>
+                    <li><a href="#">¡CONTÁCTANOS!</a></li>
+                    <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
+                </ul>
             </nav>
         </header>
         @yield('content')
