@@ -6,24 +6,23 @@
 
         <title>@yield('title') | BycloStudio</title>
 
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
-        
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/031c2785bc.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <script src="{{asset('js/app.js')}}" defer></script>
     </head>
     <body>
         <header>
             <nav class="menu">
                 <label class="logo">BYCLO</label>
-                <div class="container_menu" id="menu">
                     <ul class="menu_items">
                         <li><a href="#">CONOCE A NUESTROS COACHES</a></li>
                         <li><a href="#">RESERVAR</a></li>
                         <li><a href="#">¡CONTÁCTANOS!</a></li>
+                        <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
                     </ul>
-                    <i class="fas fa-user-circle"></i>
-                </div>
                 <span class="btn_menu" id="btn_menu">
                     <i class="fas fa-bars"></i>
                 </span>

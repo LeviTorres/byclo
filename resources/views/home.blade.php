@@ -2,6 +2,10 @@
 @section('title','Inicio')
 @section('content')
     <div class="home">
+       <!--     <img src="{{asset('assets/front.jpg')}}" alt=""> -->
+            <div class="home-logo">
+                <img src="{{asset('assets/IsotipoByclo.png')}}" alt="">
+            </div>
             <div class="home_social">
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-instagram"></i>
@@ -15,19 +19,19 @@
         <div class="container_steps">
             <div class="container_card">
                 <div class="card">
-                    <i class="fas fa-clipboard-list"></i>
+                    <img src="{{asset('assets/inscribete.png')}}" alt="">
                     <p><strong>1. </strong>Inscríbete llenando un formulario con tus datos, los cuales están protegidos<br><p class="privacity_p">*consulta aviso de privacidad</p></p>
                 </div>
                 <div class="card">
-                    <i class="fas fa-credit-card"></i>
+                    <img src="{{asset('assets/compra.png')}}" alt="">
                     <p><strong>2. </strong>Compra tus clases en línea, por clase o por paquete, con tarjeta de crédito, débito o Pay Pal</p>
                 </div>
                 <div class="card">
-                    <i class="fas fa-calendar-check"></i>
+                    <img src="{{asset('assets/agenda.png')}}" alt="">
                     <p><strong>3. </strong>Ingresa en nuestro calendario semanal y aparta tus clases con uno de nuestros instructores</p>
                 </div>
                 <div class="card">
-                    <i class="fas fa-biking"></i>
+                    <img src="{{asset('assets/entrena.png')}}" alt="">
                     <p><strong>4. </strong>¡Listo!, disfruta del mejor entrenamiento en el mejor estudio y con el mejor equipo 100% profesional</p>
                 </div>
             </div>
