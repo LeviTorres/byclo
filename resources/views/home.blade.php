@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.layoutweb')
 @section('title','Inicio')
 @section('content')
     <div class="home">

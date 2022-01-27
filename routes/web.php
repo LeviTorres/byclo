@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/console', function () {
+    return view('homeconsole');
+});
+
+Route::get('/console/add',function(){
+    return view('addclass');
+});

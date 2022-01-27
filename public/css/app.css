@@ -24,7 +24,7 @@ nav {
 
 label.logo {
     color: white;
-    font-size: 35px;
+    font-size: 45px;
     line-height: 75px;
     padding: 0 30px;
     font-weight: bold;
@@ -82,9 +82,8 @@ nav ul li a i{
         height: 100vh;
         background-color: #666666;
         top: 75px;
-        left: -100%;
         text-align: center;
-        transition: all 0.5s;
+        transition: all 0.2s;
         z-index: 1000;
     }
     nav ul li {
@@ -97,7 +96,7 @@ nav ul li a i{
         font-size: 20px;
     }
     #check:checked ~ ul {
-        left: 0;
+        top: -100vh;
 
     } 
 }
